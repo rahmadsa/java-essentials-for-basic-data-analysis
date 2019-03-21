@@ -9,7 +9,7 @@ Exception Handling is a mechanism to handle runtime errors such as ClassNotFound
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=ohpCMpderow
 " target="_blank"><img src="http://img.youtube.com/vi/ohpCMpderow/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="Exeception Handling" width="480" height="360" border="10" /></a>
 
 ### 1. Advantage of Exception Handling
 The core advantage of exception handling is to maintain the normal flow of the application. An exception normally disrupts the normal flow of the application that is why we use exception handling. Let's take a scenario:
