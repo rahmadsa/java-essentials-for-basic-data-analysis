@@ -136,7 +136,7 @@ If you are inserting any value in the wrong index, it would result in ArrayIndex
 ## Java Exception Types
 
 1. [Java Try-Catch Block](#javatrycatchblock)
-2. [Java Multiple Catch Block](./exception.md#javamultiplecatchblock) 
+2. [Java Multiple Catch Block](#javamultiplecatchblock) 
 3. [Java Nested Try](#javanestedtry)
 4. [Java Finally Block](#javafinallyblock)
 5. [Java Throw Keyword](#javathrowkeyword)
@@ -152,7 +152,7 @@ If you are inserting any value in the wrong index, it would result in ArrayIndex
 
 # Java Exception Types :
 
- # 1. Java Try-Catch Block(#javatrycatchblock)
+ # 1. Java Try-Catch Block (#javatrycatchblock)
 ------------------------------------
 ## Java try block
 Java try block is used to enclose the code that might throw an exception. It must be used within the method.
@@ -454,7 +454,7 @@ rest of the code...
 ```
 
 
-# 5. Java Throw Keyword{#javathrowkeyword}
+# 5. Java Throw Keyword {#javathrowkeyword}
 ------------------------------------
 ## Java throw keyword
 The Java throw keyword is used to explicitly throw an exception.
