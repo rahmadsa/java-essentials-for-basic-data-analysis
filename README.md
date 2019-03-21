@@ -6,8 +6,8 @@
 2. [Exception Handling](./exception.md)
 
 #### CHAPTER 2 : Getting Data Into and Out of Java
-2. [Data Frame](./DataFrame.md)
-2. [File Format](./README.md)
+2. [Data Frame](./dataframe.md)
+2. [File Format](./fileformat.md)
    1. [CSV](./README.md)
    2. [Excel](./README.md)
    3. [Pdf](./README.md)
