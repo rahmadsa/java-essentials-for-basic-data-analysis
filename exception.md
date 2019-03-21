@@ -7,8 +7,8 @@ In Java, an exception is an event that disrupts the normal flow of the program. 
 ## What is Exception Handling?
 Exception Handling is a mechanism to handle runtime errors such as ClassNotFoundException, IOException, SQLException, RemoteException, etc.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ohpCMpderow
-" target="_blank"><img src="http://img.youtube.com/vi/ohpCMpderow/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=QFGqM1H0bQ0
+" target="_blank"><img src="http://img.youtube.com/vi/QFGqM1H0bQ0/0.jpg" 
 alt="Exeception Handling" width="480" height="360" border="10" /></a>
 
 ### 1. Advantage of Exception Handling
