@@ -136,7 +136,7 @@ If you are inserting any value in the wrong index, it would result in ArrayIndex
 ## Java Exception Types
 
 1. [Java Try-Catch Block](#javatrycatchblock)
-2. [Java Multiple Catch Block](#javamultiplecatchblock) 
+2. [Java Multiple Catch Block](#2.-Java-Multiple-Catch-Block) 
 3. [Java Nested Try](#javanestedtry)
 4. [Java Finally Block](#javafinallyblock)
 5. [Java Throw Keyword](#javathrowkeyword)
@@ -235,7 +235,7 @@ rest of the code
 Now, as displayed in the above example, the rest of the code is executed, i.e., the rest of the code statement is printed.
 
 
-# 2. Java Multiple Catch Block{#javamultiplecatchblock}
+# 2. Java Multiple Catch Block
 ------------------------------------
 
 ## Java Multi-catch block
