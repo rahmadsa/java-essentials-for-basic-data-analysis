@@ -135,13 +135,13 @@ If you are inserting any value in the wrong index, it would result in ArrayIndex
 
 ## Java Exception Types
 
-1. [Java Try-Catch Block](#javatrycatchblock)
+1. [Java Try-Catch Block](#Java-Try-Catch-Block)
 2. [Java Multiple Catch Block](#Java-Multiple-Catch-Block) 
-3. [Java Nested Try](#javanestedtry)
-4. [Java Finally Block](#javafinallyblock)
-5. [Java Throw Keyword](#javathrowkeyword)
-6. [Java Throws Keyword](#javathrowskeyword)
-7. [Difference between throw and throws in Java](#differencethrow_hrows)
+3. [Java Nested Try](#Java-Nested-Try)
+4. [Java Finally Block](#Java-Finally-Block)
+5. [Java Throw Keyword](#Java-Throw-Keyword)
+6. [Java Throws Keyword](#Java-Throws-Keyword)
+7. [Difference between throw and throws in Java](#Difference-between-throw-and-throws-in-Java)
 
 ## Try Out
  [Exercise 3A](./pdf/exercise3a.pdf)
@@ -152,7 +152,7 @@ If you are inserting any value in the wrong index, it would result in ArrayIndex
 
 # Java Exception Types :
 
- # 1. Java Try-Catch Block (#javatrycatchblock)
+ # Java Try-Catch Block
 ------------------------------------
 ## Java try block
 Java try block is used to enclose the code that might throw an exception. It must be used within the method.
@@ -234,7 +234,7 @@ rest of the code
 ``` 
 Now, as displayed in the above example, the rest of the code is executed, i.e., the rest of the code statement is printed.
 
-#javamultiplecatchblock
+
 # Java Multiple Catch Block
 ------------------------------------
 
@@ -315,7 +315,7 @@ ArrayIndexOutOfBounds Exception occurs
 rest of the code
 ``` 
 
-# 3. Java Nested Try {#javanestedtry}
+# Java Nested Try
 ------------------------------------
 ## Java Nested try block
 The try block within a try block is known as nested try block in java.
@@ -369,7 +369,7 @@ class Excep6{
 }  
 ```
 
-# 4. Java Finally Block{#javafinallyblock}
+# Java Finally Block
 ------------------------------------
 ### Java finally block
 Java finally block is a block that is used to execute important code such as closing connection, stream etc.
@@ -454,7 +454,7 @@ rest of the code...
 ```
 
 
-# 5. Java Throw Keyword {#javathrowkeyword}
+# Java Throw Keyword
 ------------------------------------
 ## Java throw keyword
 The Java throw keyword is used to explicitly throw an exception.
@@ -491,7 +491,7 @@ public class TestThrow1{
 Exception in thread main java.lang.ArithmeticException:not valid
 ```
 
-# 6. Java Throws Keyword{#javathrowskeyword}
+# Java Throws Keyword
 ------------------------------------
 The Java throws keyword is used to declare an exception. It gives an information to the programmer that there may occur an exception so it is better for the programmer to provide the exception handling code so that normal flow can be maintained.
 
@@ -625,7 +625,7 @@ class Testthrows4{
 Runtime Exception
 ```
 
-# Difference between throw and throws in Java{#differencethrow_hrows}
+# Difference between throw and throws in Java
 
 There are many differences between throw and throws keywords. A list of differences between throw and throws are given below:
 
