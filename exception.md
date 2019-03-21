@@ -152,7 +152,7 @@ If you are inserting any value in the wrong index, it would result in ArrayIndex
 
 # Java Exception Types :
 
- # 1. Java Try-Catch Block{#javatrycatchblock}
+ # 1. Java Try-Catch Block(#javatrycatchblock)
 ------------------------------------
 ## Java try block
 Java try block is used to enclose the code that might throw an exception. It must be used within the method.
