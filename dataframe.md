@@ -110,7 +110,7 @@ If you have several columns of the same length as you would in a table of data, 
    DoubleColumn result = firstColumn.where(someOtherColumn.startsWith("foo"));
 ```
 
-**Key point:** Note the methods ``startsWith(aString)``,  ``isLessThan(aNumber)``, and ``isOdd()``. These were predefined for your use. There are many such methods that can be used in building queries. For StringColumn, they’re defined in the ``tech.tablesaw.columns.strings.StringFilters interface``. It also includes ``endsWith()``, ``isEmpty()``, ``isAlpha()``, containsString()1, etc. Each column has a similar set of filter operations. They can all be found in the filter interfaces located in sub-folders of tech.tablesaw.columns (e.g. ``tech.tablesaw.columns.dates.DateFilters``).
+>> **Key point:** Note the methods ``startsWith(aString)``,  ``isLessThan(aNumber)``, and ``isOdd()``. These were predefined for your use. There are many such methods that can be used in building queries. For StringColumn, they’re defined in the ``tech.tablesaw.columns.strings.StringFilters interface``. It also includes ``endsWith()``, ``isEmpty()``, ``isAlpha()``, containsString()1, etc. Each column has a similar set of filter operations. They can all be found in the filter interfaces located in sub-folders of tech.tablesaw.columns (e.g. ``tech.tablesaw.columns.dates.DateFilters``).
 
 
 ## Tables
@@ -217,7 +217,7 @@ If you want all the columns of specific type, you can get those as well. The met
 ```
    table.columnOfType(ColumnType.DOUBLE).forEach(x ->                                               		((DoubleColumn)x).setPrintFormatter(NumberColumnFormatter.ints()));
 ```
-**Key point:** You may want a specific kind of column to work with. Either use the standard column() method and cast the result or use one of the type specific methods (like numberColumn()) that handle the cast for you. There are also methods or getting columns of a specific type.
+>> **Key point:** You may want a specific kind of column to work with. Either use the standard column() method and cast the result or use one of the type specific methods (like numberColumn()) that handle the cast for you. There are also methods or getting columns of a specific type.
 
 ### Working with rows
 As with columns, many options exist for working with tables in row-wise fashion. Here are some useful ones:
@@ -331,7 +331,7 @@ There are many map functions built-in for the various column types. Here are som
 
 As you can see, for many String methods that return a new String. StringColumn provides an equivilent map method that returns a new StringColumn. It also includes other helpful methods found in Guava’s String library and in the Apache Commons String library.
 
-**Key point:** Every column type has a set of map operations like ``multiply(aNumber)``. For StringColumn, these methods are defined in the ``tech.tablesaw.columns.strings.StringMapFunctions interface``. It includes many methods beyond those shown above. Methods for all column types can all be found in their filter interfaces located in the sub-folders of ``tech.tablesaw.columns (e.g. tech.tablesaw.columns.dates.DateMapFunctions``, which provides date methods like ``plusDays(anInt)``, ``year()``, and ``month()``).
+>> **Key point:** Every column type has a set of map operations like ``multiply(aNumber)``. For StringColumn, these methods are defined in the ``tech.tablesaw.columns.strings.StringMapFunctions interface``. It includes many methods beyond those shown above. Methods for all column types can all be found in their filter interfaces located in the sub-folders of ``tech.tablesaw.columns (e.g. tech.tablesaw.columns.dates.DateMapFunctions``, which provides date methods like ``plusDays(anInt)``, ``year()``, and ``month()``).
 
 ### Reduce (aggregate) functions: Summarizing a column ###
 Sometimes you want to derive a singly value that summarizes in some sense the data in a column. Aggregate functions do just that. Each such function scan all the values in a column and returns a single scalar value as a result. All columns support some aggregate functions: min() and max(), for example, plus count(), countUnique(), and countMissing(). Some also support type-specific functions. BooleanColumn, for example, supports all(), which returns true if all of the values in the column are true. The functions any(), and none(), return true if any or none the values in the column are true, respectively. The functions countTrue(), and countFalse() are also available.
@@ -340,7 +340,7 @@ NumberColumn has many more aggregate functions. For example, to calculate the st
 ```
 	double stdDev = nc.standardDeviation();
 ```	
-**Key point:** NumberColumn supports many aggregation functions, including many of the most useful. Among those available are ```sum, count, mean, median, percentile(n), range, variance, sumOfLogs```, and so on. These are defined in the ```NumericColumn``` class.
+>> **Key point:** NumberColumn supports many aggregation functions, including many of the most useful. Among those available are ```sum, count, mean, median, percentile(n), range, variance, sumOfLogs```, and so on. These are defined in the ```NumericColumn``` class.
 
 When we discuss tables below, we’ll show how to calculate sub-totals in one or more numeric columns by the values in one or more grouping columns.
 
@@ -361,7 +361,7 @@ It’s important to recognize, that the column need not exist when summarize is 
 ```	 
 which says “return the mean and median sales by day of week.”
 
-**Key point:** Tables are usually split based on columns, but the columns can be calculated on the fly
+>> **Key point:** Tables are usually split based on columns, but the columns can be calculated on the fly
 
 See the documentation on Summarizing data, and the classes in the aggregate package for more detail.
 
