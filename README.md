@@ -1,4 +1,4 @@
-@import "css/modest.css"
+@import "./css/modest.css"
 ## Java Essentials For Basic Data Analysis
 ### Table of Contents
 
