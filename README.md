@@ -2,7 +2,7 @@
 
 ### Table of Contents
 
-#### [Day    1 : Introducing Java Programming](./README.md)
+#### [Day    1 : Introducing Java Programming](./1_Intro_Java.ipynb)
 #### [Day    2 : Building Block](./README.md)
 #### [Day    3 : Control Process](./README.md)
 #### [Day    4 : Function and Exception Handling](./README.md)
