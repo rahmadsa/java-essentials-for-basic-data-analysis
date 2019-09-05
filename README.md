@@ -1,38 +1,20 @@
-## Java Essentials For Basic Data Analysis
+## Java Programming For Basic Data Analysis
+
 ### Table of Contents
 
-#### CHAPTER 1 : Introduction
-1. [Java Data Collection](./datacoolection.md)
-2. [Exception Handling](./exception.md)
-
-#### CHAPTER 2 : Getting Data Into and Out of Java
-2. [Data Frame](./dataframe.md)
-2. [File Format](./fileformat.md)
-   1. [CSV](./README.md)
-   2. [Excel](./README.md)
-   3. [Pdf](./README.md)
-   4. [SQL](./README.md)   
-   5. [JSON](./README.md)
-3. [Implement Inheritance](./README.md)
-4. [Prepairing Data](./README.md)
-   1. [Cleaning Data](./README.md)
-   2. [Creating New Var](./README.md)
-   3. [Organizing Data](./README.md)
-   4. [Agregat Statistik Analysis Computing](./README.md)
-   5. [Case Study](./README.md)
-5. [Mid Test](./README.md)
-#### CHAPTER 3 : Finding Meaning
-1. [Sorting](./README.md)
-2. [Correlation](./README.md)
-3. [Implement Polymorphism](./README.md)                                               
-4. [Regression](./README.md)
-5. [Pivot Table](./README.md)
-6. [Visualizing Data](./README.md)
-#### CHAPTER 4: Social Media Connection
-1. Twitter
-2. [Wikipedia](./README.md)
-3. [Youtube](./README.md)
-4. Facebook
-5. Instagram
-6. [Case Study](./README.md)
-
+#### [Day    1 : Introducing Java Programming](./README.md)
+#### [Day    2 : Building Block](./README.md)
+#### [Day    3 : Control Process](./README.md)
+#### [Day    4 : Function and Exception Handling](./README.md)
+#### [Day    5 : Collections in Java ](./README.md)
+#### [Day    6 : Classes and Objects](./README.md)
+#### [Day    7:  Case Study I](./README.md)
+#### [Day    8 : Mid Test](./README.md)
+#### [Day    9 : Implementing Classes](./README.md)
+#### [Day  10 : Inheritance](./README.md)
+#### [Day  11 :Preparing Data](./README.md)
+#### [Day  12 : Finding the Meaning](./README.md)
+#### [Day  13 : Visualizing Data](./README.md)
+#### [Day  14 : Implement Polymorphism](./README.md)
+#### [Day  15 : Case Study II](./README.md)
+#### [Day  16:  Final Test](./README.md)
