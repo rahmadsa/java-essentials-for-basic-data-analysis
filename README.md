@@ -1,4 +1,4 @@
-## Java Programming For Basic Data Analysis
+## Essential Java Programming For Basic Data Analysis
 
 ### Table of Contents
 
