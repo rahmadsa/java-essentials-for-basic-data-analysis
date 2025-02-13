@@ -1,7 +1,7 @@
 ## Essential Java Programming For Basic Data Analysis
 ### Teaching materials learning Java Programming  
 
-This material is about learning the Java programming language with an experimental environment using Jupyter Notebook & [BeakerX] (http://beakerx.com/) 
+This material is about learning the Java programming language with an experimental environment using Jupyter Notebook & [BeakerX](http://beakerx.com/) 
 
 ### Table of Contents
 
